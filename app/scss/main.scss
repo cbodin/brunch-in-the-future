@@ -1,0 +1,24 @@
+$default-bg: #fff;
+$default-text: #000;
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  background: $default-bg;
+  color: $default-text;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-family: Georgia, sans-serif;
+  font-size: 30px;
+}

@@ -1,0 +1,30 @@
+{
+  "name": "brunch-in-the-future",
+  "description": "Brunch application with ES6, Sass, Airbnb Preset Babel, Airbnb ESLint, Sass lint, UglifyJS, Autoprefixer and Auto-Reload",
+  "private": true,
+  "author": "Christofer Bodin (https://github.com/cbodin)",
+  "version": "0.0.1",
+  "repository": "https://github.com/cbodin/brunch-in-the-future.git",
+  "scripts": {
+    "clean": "rm -rf public",
+    "start": "npm run clean && node_modules/.bin/brunch watch --server",
+    "build": "npm run clean && node_modules/.bin/brunch build --production"
+  },
+  "devDependencies": {
+    "auto-reload-brunch": "^2",
+    "autoprefixer-brunch": "^1",
+    "babel-brunch": "^6",
+    "babel-preset-airbnb": "^2",
+    "brunch": "^2",
+    "eslint": "^4",
+    "eslint-brunch": "git+https://github.com/brunch/eslint-brunch.git#9ad806405804a86d9373e6c0421903a9c5c88c22",
+    "eslint-config-airbnb": "^16",
+    "eslint-plugin-import": "^2",
+    "eslint-plugin-jsx-a11y": "^6",
+    "eslint-plugin-react": "^7",
+    "javascript-brunch": "^2",
+    "sass-brunch": "^2",
+    "sass-lint-brunch": "^1",
+    "uglify-js-brunch": "^2"
+  }
+}

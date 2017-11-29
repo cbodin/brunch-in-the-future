@@ -25,6 +25,12 @@ All src files are located in the `app` folder.
 - `npm start` watches for file changes and automatically recompiles and reloads the web page. A local web server is started at `http://localhost:3333`
 - `npm build` creates a production build in the `public` folder with minified css and js.
 
+### Windows users
+Make sure npm is added to PATH.
+- `npm run start-windows` instead of `npm start`
+- `npm run build-windows` instead of `npm build` 
+
+
 ## TODO
 - Remove autoprefixer-brunch and replace with brunch-postcss when all issues are resolved https://github.com/brunch/brunch/pull/1664
 - Use specific version instead of commit hash for eslint-brunch when a new tag is created https://github.com/brunch/eslint-brunch/issues/22

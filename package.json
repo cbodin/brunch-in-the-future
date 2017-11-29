@@ -8,7 +8,10 @@
   "scripts": {
     "clean": "rm -rf public",
     "start": "npm run clean && node_modules/.bin/brunch watch --server",
-    "build": "npm run clean && node_modules/.bin/brunch build --production"
+    "build": "npm run clean && node_modules/.bin/brunch build --production",
+    "clean-windows": "if exist public echo RMDIR /s /q public",
+    "start-windows": "npm run clean-windows & .\\node_modules\\.bin\\brunch watch --server",
+    "build-windows": "npm run clean-windows & .\\node_modules\\.bin\\brunch build --production"
   },
   "devDependencies": {
     "auto-reload-brunch": "^2",
